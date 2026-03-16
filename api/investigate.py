@@ -2,8 +2,8 @@ import json, os
 from http.server import BaseHTTPRequestHandler
 import google.generativeai as genai
 
-KEY   = os.environ.get("GEMINI_API_KEY", "AIzaSyCd2MpD_vGXa9F-Aent9yLlqcxen3UOIJM")
-MODEL = "gemini-1.5-flash-latest"
+KEY   = os.environ.get("GEMINI_API_KEY", "AIzaSyDxQbps40t2Fvh-xrxzgcIeqcApzdXdd5g")
+MODEL = "gemini-2.5-flash"
 
 PROMPT = '''You are a forensic detective AI. Analyze the case: "{name}"
 
